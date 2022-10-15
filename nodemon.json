@@ -1,0 +1,8 @@
+{
+    "env":{
+        "DB_USER":"Nokhalal",
+        "DB_PASSWORD":"Nokhalal",
+        "DB_NAME":"instabook",
+        "MAP_API_KEY":"085616841221d67e4b9cef227958356c"
+    }
+}
