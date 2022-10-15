@@ -53,7 +53,7 @@ app.use((error, req, res, next) => {
 
 mongoose
 .connect(URI)
-.then((result) => app.listen(5000))
+.then((result) => app.listen(process.env.PORT || 5000))
   .catch((error) => {
     console.log("could not connect ot the database");
   });
